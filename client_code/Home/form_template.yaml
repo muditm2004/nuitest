@@ -1,2078 +1,1506 @@
-container:
-  type: HtmlTemplate
-is_package: true
 components:
-  - layout_properties:
-      slot: default
-    components:
-      - layout_properties:
-          slot: default
-        name: label_meta_1
-        properties:
-          html_tag: meta
-          css: ''
-          preset: []
-          attributes:
-            - 'charset: utf-8'
-          text: ''
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: label_meta_2
-        properties:
-          html_tag: meta
-          css: ''
-          preset: []
-          attributes:
-            - 'name: viewport'
-            - 'content: width=device-width,initial-scale=1'
-          text: ''
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: label_title_1
-        properties:
-          html_tag: title
-          css: ''
-          preset: []
-          attributes: []
-          text: Stunning One-Page UI
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: label_meta_3
-        properties:
-          html_tag: meta
-          css: ''
-          preset: []
-          attributes:
-            - 'name: description'
-            - >-
-              content: A single-page modern responsive UI with polished
-              interactions, animations and lightbox.
-          text: ''
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: label_link_1
-        properties:
-          html_tag: link
-          css: ''
-          preset: []
-          attributes:
-            - >-
-              href:
-              https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap
-            - 'rel: [''stylesheet'']'
-          text: ''
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: container_header_1
-        properties:
-          html_tag: header
-          css: ''
-          preset: []
-          attributes:
-            - 'aria-hidden: false'
-          text: ''
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Container
-        components:
-          - layout_properties:
-              slot: default
-            name: container_div_1
-            properties:
-              html_tag: div
-              css: ''
-              preset:
-                - navwrap
-                - container
-              attributes:
-                - 'role: navigation'
-                - 'aria-label: Main navigation'
-              text: ''
-              true_html_structure: true
-            type: form:dep_9f700jgshl3kp:Container
-            components:
-              - layout_properties:
-                  slot: default
-                name: container_div_2
-                properties:
-                  html_tag: div
-                  css: ''
-                  preset:
-                    - brand
-                  attributes: []
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: label_div_1
-                    properties:
-                      html_tag: div
-                      css: ''
-                      preset:
-                        - logo
-                      attributes: []
-                      text: UI
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-                  - layout_properties:
-                      slot: default
-                    name: container_div_3
-                    properties:
-                      html_tag: div
-                      css: ''
-                      preset: []
-                      attributes: []
-                      text: ''
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Container
-                    components:
-                      - layout_properties:
-                          slot: default
-                        name: label_div_2
-                        properties:
-                          html_tag: div
-                          css: font-weight:800
-                          preset: []
-                          attributes: []
-                          text: PixelCraft
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: label_div_3
-                        properties:
-                          html_tag: div
-                          css: font-size:12px;color:var(--muted)
-                          preset: []
-                          attributes: []
-                          text: UI · Interaction · Microcopy
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-              - layout_properties:
-                  slot: default
-                name: container_nav_1
-                properties:
-                  html_tag: nav
-                  css: ''
-                  preset: []
-                  attributes: []
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: label_a_1
-                    properties:
-                      html_tag: a
-                      css: ''
-                      preset:
-                        - navlink
-                      attributes:
-                        - 'href: #features'
-                        - 'data-target: features'
-                      text: Features
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-                  - layout_properties:
-                      slot: default
-                    name: label_a_2
-                    properties:
-                      html_tag: a
-                      css: ''
-                      preset:
-                        - navlink
-                      attributes:
-                        - 'href: #work'
-                        - 'data-target: work'
-                      text: Work
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-                  - layout_properties:
-                      slot: default
-                    name: label_a_3
-                    properties:
-                      html_tag: a
-                      css: ''
-                      preset:
-                        - navlink
-                      attributes:
-                        - 'href: #contact'
-                        - 'data-target: contact'
-                      text: Contact
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-                  - layout_properties:
-                      slot: default
-                    name: button_button_1
-                    properties:
-                      html_tag: button
-                      css: ''
-                      preset:
-                        - btn
-                        - btn-ghost
-                      attributes:
-                        - 'id: themeToggle'
-                        - 'aria-pressed: false'
-                        - 'title: Toggle theme'
-                      text: 🌙
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Button
-                  - layout_properties:
-                      slot: default
-                    name: label_a_4
-                    properties:
-                      html_tag: a
-                      css: ''
-                      preset:
-                        - cta
-                      attributes:
-                        - 'href: #contact'
-                      text: Start a Project
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: container_main_1
-        properties:
-          html_tag: main
-          css: ''
-          preset: []
-          attributes: []
-          text: ''
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Container
-        components:
-          - layout_properties:
-              slot: default
-            name: container_section_1
-            properties:
-              html_tag: section
-              css: ''
-              preset:
-                - hero
-                - container
-              attributes:
-                - 'id: home'
-              text: ''
-              true_html_structure: true
-            type: form:dep_9f700jgshl3kp:Container
-            components:
-              - layout_properties:
-                  slot: default
-                name: container_div_4
-                properties:
-                  html_tag: div
-                  css: ''
-                  preset:
-                    - hero-grid
-                  attributes: []
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: container_div_5
-                    properties:
-                      html_tag: div
-                      css: ''
-                      preset: []
-                      attributes: []
-                      text: ''
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Container
-                    components:
-                      - layout_properties:
-                          slot: default
-                        name: label_div_4
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - eyebrow
-                          attributes: []
-                          text: New • Interactive One‑Page
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: label_h1_1
-                        properties:
-                          html_tag: h1
-                          css: ''
-                          preset:
-                            - reveal
-                          attributes: []
-                          text: Beautiful interfaces that feel handcrafted.
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: label_p_1
-                        properties:
-                          html_tag: p
-                          css: ''
-                          preset:
-                            - lead
-                            - reveal
-                          attributes: []
-                          text: >-
-                            A single page demo that demonstrates modern
-                            microinteractions, accessible markup, responsive
-                            layout and a small lightbox gallery — perfect as a
-                            landing page starter template.
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_6
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - cta-row
-                            - reveal
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: button_button_2
-                            properties:
-                              html_tag: button
-                              css: ''
-                              preset:
-                                - btn
-                              attributes:
-                                - 'id: scrollWork'
-                              text: Explore Work →
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Button
-                          - layout_properties:
-                              slot: default
-                            name: button_button_3
-                            properties:
-                              html_tag: button
-                              css: ''
-                              preset:
-                                - btn
-                                - btn-ghost
-                              attributes:
-                                - 'id: previewBtn'
-                              text: Preview Demo
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Button
-                      - layout_properties:
-                          slot: default
-                        name: container_div_7
-                        properties:
-                          html_tag: div
-                          css: margin-top:28px
-                          preset:
-                            - features
-                            - reveal
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: container_div_8
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - feature
-                              attributes:
-                                - 'data-tilt: '
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: label_div_5
-                                properties:
-                                  html_tag: div
-                                  css: ''
-                                  preset:
-                                    - icon
-                                  attributes: []
-                                  text: ⚡
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_h4_1
-                                properties:
-                                  html_tag: h4
-                                  css: margin:10px 0 6px
-                                  preset: []
-                                  attributes: []
-                                  text: Fast Animations
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_p_2
-                                properties:
-                                  html_tag: p
-                                  css: font-size:14px;margin:0
-                                  preset:
-                                    - muted
-                                  attributes: []
-                                  text: >-
-                                    Hardware-accelerated and subtle motion to
-                                    guide attention.
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: container_div_9
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - feature
-                              attributes:
-                                - 'data-tilt: '
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: label_div_6
-                                properties:
-                                  html_tag: div
-                                  css: ''
-                                  preset:
-                                    - icon
-                                  attributes: []
-                                  text: 🎛️
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_h4_2
-                                properties:
-                                  html_tag: h4
-                                  css: margin:10px 0 6px
-                                  preset: []
-                                  attributes: []
-                                  text: Interactive UI
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_p_3
-                                properties:
-                                  html_tag: p
-                                  css: font-size:14px;margin:0
-                                  preset:
-                                    - muted
-                                  attributes: []
-                                  text: >-
-                                    Filters, lightbox, form validation and theme
-                                    toggle built-in.
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: container_div_10
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - feature
-                              attributes:
-                                - 'data-tilt: '
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: label_div_7
-                                properties:
-                                  html_tag: div
-                                  css: ''
-                                  preset:
-                                    - icon
-                                  attributes: []
-                                  text: 🔒
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_h4_3
-                                properties:
-                                  html_tag: h4
-                                  css: margin:10px 0 6px
-                                  preset: []
-                                  attributes: []
-                                  text: Accessible
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_p_4
-                                properties:
-                                  html_tag: p
-                                  css: font-size:14px;margin:0
-                                  preset:
-                                    - muted
-                                  attributes: []
-                                  text: >-
-                                    Keyboard friendly, semantic HTML, focus
-                                    states and ARIA attributes.
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                  - layout_properties:
-                      slot: default
-                    name: container_aside_1
-                    properties:
-                      html_tag: aside
-                      css: ''
-                      preset:
-                        - card-hero
-                        - reveal
-                      attributes:
-                        - 'aria-hidden: false'
-                      text: ''
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Container
-                    components:
-                      - layout_properties:
-                          slot: default
-                        name: container_div_11
-                        properties:
-                          html_tag: div
-                          css: >-
-                            display:flex;align-items:center;justify-content:space-between;margin-bottom:12px
-                          preset: []
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: container_div_12
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset: []
-                              attributes: []
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: label_div_8
-                                properties:
-                                  html_tag: div
-                                  css: >-
-                                    font-size:12px;color:var(--muted);font-weight:700
-                                  preset: []
-                                  attributes: []
-                                  text: Live preview
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_div_9
-                                properties:
-                                  html_tag: div
-                                  css: font-weight:800;font-size:18px
-                                  preset: []
-                                  attributes: []
-                                  text: Interactive Gallery
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: label_div_10
-                            properties:
-                              html_tag: div
-                              css: text-align:right;color:var(--muted)
-                              preset: []
-                              attributes: []
-                              text: v1.0
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_13
-                        properties:
-                          html_tag: div
-                          css: >-
-                            height:260px;border-radius:12px;overflow:hidden;position:relative;background:linear-gradient(180deg,
-                            rgba(255,255,255,0.02), transparent)
-                          preset: []
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: container_svg_1
-                            properties:
-                              html_tag: svg
-                              css: width:100%;height:100%
-                              preset: []
-                              attributes:
-                                - 'viewbox: 0 0 600 400'
-                                - 'preserveaspectratio: xMidYMid slice'
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: container_defs_1
-                                properties:
-                                  html_tag: defs
-                                  css: ''
-                                  preset: []
-                                  attributes: []
-                                  text: ''
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Container
-                                components:
-                                  - layout_properties:
-                                      slot: default
-                                    name: container_lineargradient_1
-                                    properties:
-                                      html_tag: lineargradient
-                                      css: ''
-                                      preset: []
-                                      attributes:
-                                        - 'id: g1'
-                                        - 'x1: 0'
-                                        - 'x2: 1'
-                                      text: ''
-                                      true_html_structure: true
-                                    type: form:dep_9f700jgshl3kp:Container
-                                    components:
-                                      - layout_properties:
-                                          slot: default
-                                        name: label_stop_1
-                                        properties:
-                                          html_tag: stop
-                                          css: ''
-                                          preset: []
-                                          attributes:
-                                            - 'offset: 0'
-                                            - 'stop-color: #7c3aed'
-                                            - 'stop-opacity: 0.95'
-                                          text: ''
-                                          true_html_structure: true
-                                        type: form:dep_9f700jgshl3kp:Label
-                                      - layout_properties:
-                                          slot: default
-                                        name: label_stop_2
-                                        properties:
-                                          html_tag: stop
-                                          css: ''
-                                          preset: []
-                                          attributes:
-                                            - 'offset: 1'
-                                            - 'stop-color: #06b6d4'
-                                            - 'stop-opacity: 0.9'
-                                          text: ''
-                                          true_html_structure: true
-                                        type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: label_rect_1
-                                properties:
-                                  html_tag: rect
-                                  css: ''
-                                  preset: []
-                                  attributes:
-                                    - 'x: 0'
-                                    - 'y: 0'
-                                    - 'width: 600'
-                                    - 'height: 400'
-                                    - 'fill: url(#g1)'
-                                  text: ''
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: container_g_1
-                                properties:
-                                  html_tag: g
-                                  css: ''
-                                  preset: []
-                                  attributes:
-                                    - 'fill: rgba(255,255,255,0.18)'
-                                    - 'transform: translate(40,40)'
-                                    - 'opacity: 0.9'
-                                  text: ''
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Container
-                                components:
-                                  - layout_properties:
-                                      slot: default
-                                    name: label_circle_1
-                                    properties:
-                                      html_tag: circle
-                                      css: ''
-                                      preset: []
-                                      attributes:
-                                        - 'cx: 60'
-                                        - 'cy: 40'
-                                        - 'r: 8'
-                                      text: ''
-                                      true_html_structure: true
-                                    type: form:dep_9f700jgshl3kp:Label
-                                  - layout_properties:
-                                      slot: default
-                                    name: label_circle_2
-                                    properties:
-                                      html_tag: circle
-                                      css: ''
-                                      preset: []
-                                      attributes:
-                                        - 'cx: 120'
-                                        - 'cy: 80'
-                                        - 'r: 26'
-                                      text: ''
-                                      true_html_structure: true
-                                    type: form:dep_9f700jgshl3kp:Label
-                                  - layout_properties:
-                                      slot: default
-                                    name: label_circle_3
-                                    properties:
-                                      html_tag: circle
-                                      css: ''
-                                      preset: []
-                                      attributes:
-                                        - 'cx: 220'
-                                        - 'cy: 100'
-                                        - 'r: 14'
-                                      text: ''
-                                      true_html_structure: true
-                                    type: form:dep_9f700jgshl3kp:Label
-                                  - layout_properties:
-                                      slot: default
-                                    name: label_circle_4
-                                    properties:
-                                      html_tag: circle
-                                      css: ''
-                                      preset: []
-                                      attributes:
-                                        - 'cx: 360'
-                                        - 'cy: 30'
-                                        - 'r: 20'
-                                      text: ''
-                                      true_html_structure: true
-                                    type: form:dep_9f700jgshl3kp:Label
-                                  - layout_properties:
-                                      slot: default
-                                    name: label_circle_5
-                                    properties:
-                                      html_tag: circle
-                                      css: ''
-                                      preset: []
-                                      attributes:
-                                        - 'cx: 480'
-                                        - 'cy: 120'
-                                        - 'r: 10'
-                                      text: ''
-                                      true_html_structure: true
-                                    type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_14
-                        properties:
-                          html_tag: div
-                          css: >-
-                            display:flex;gap:10px;margin-top:12px;align-items:center;justify-content:space-between
-                          preset: []
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_div_11
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - muted
-                              attributes: []
-                              text: Responsive • Retina • Small
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: container_div_15
-                            properties:
-                              html_tag: div
-                              css: display:flex;gap:8px
-                              preset: []
-                              attributes: []
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: button_button_4
-                                properties:
-                                  html_tag: button
-                                  css: ''
-                                  preset:
-                                    - btn
-                                    - btn-ghost
-                                  attributes:
-                                    - 'id: downloadMock'
-                                  text: Download
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Button
-                              - layout_properties:
-                                  slot: default
-                                name: button_button_5
-                                properties:
-                                  html_tag: button
-                                  css: ''
-                                  preset:
-                                    - btn
-                                  attributes:
-                                    - 'id: openLightbox'
-                                  text: Open
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Button
-          - layout_properties:
-              slot: default
-            name: container_section_2
-            properties:
-              html_tag: section
-              css: ''
-              preset:
-                - container
-              attributes:
-                - 'id: work'
-              text: ''
-              true_html_structure: true
-            type: form:dep_9f700jgshl3kp:Container
-            components:
-              - layout_properties:
-                  slot: default
-                name: container_div_16
-                properties:
-                  html_tag: div
-                  css: >-
-                    display:flex;align-items:center;justify-content:space-between
-                  preset: []
-                  attributes: []
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: label_h2_1
-                    properties:
-                      html_tag: h2
-                      css: ''
-                      preset: []
-                      attributes: []
-                      text: Selected work
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-                  - layout_properties:
-                      slot: default
-                    name: label_div_12
-                    properties:
-                      html_tag: div
-                      css: ''
-                      preset:
-                        - muted
-                      attributes: []
-                      text: Filter examples & open to view
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-              - layout_properties:
-                  slot: default
-                name: container_div_17
-                properties:
-                  html_tag: div
-                  css: ''
-                  preset:
-                    - gallery
-                    - reveal
-                  attributes: []
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: container_div_18
-                    properties:
-                      html_tag: div
-                      css: ''
-                      preset:
-                        - filter-row
-                      attributes:
-                        - 'role: tablist'
-                        - 'aria-label: Filter projects'
-                      text: ''
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Container
-                    components:
-                      - layout_properties:
-                          slot: default
-                        name: label_div_13
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - chip
-                          attributes:
-                            - 'data-filter: all'
-                            - 'data-active: true'
-                          text: All
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: label_div_14
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - chip
-                          attributes:
-                            - 'data-filter: web'
-                          text: Web
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: label_div_15
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - chip
-                          attributes:
-                            - 'data-filter: branding'
-                          text: Branding
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: label_div_16
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - chip
-                          attributes:
-                            - 'data-filter: ui'
-                          text: UI Kits
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-                  - layout_properties:
-                      slot: default
-                    name: container_div_19
-                    properties:
-                      html_tag: div
-                      css: ''
-                      preset:
-                        - grid
-                      attributes:
-                        - 'id: grid'
-                      text: ''
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Container
-                    components:
-                      - layout_properties:
-                          slot: default
-                        name: container_div_20
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - thumb
-                          attributes:
-                            - 'data-category: web'
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_img_1
-                            properties:
-                              html_tag: img
-                              css: ''
-                              preset: []
-                              attributes:
-                                - >-
-                                  src:
-                                  https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder
-                                - 'alt: Project 1'
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: label_div_17
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - tag
-                              attributes: []
-                              text: Web
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_21
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - thumb
-                          attributes:
-                            - 'data-category: branding'
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_img_2
-                            properties:
-                              html_tag: img
-                              css: ''
-                              preset: []
-                              attributes:
-                                - >-
-                                  src:
-                                  https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder
-                                - 'alt: Project 2'
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: label_div_18
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - tag
-                              attributes: []
-                              text: Branding
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_22
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - thumb
-                          attributes:
-                            - 'data-category: ui'
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_img_3
-                            properties:
-                              html_tag: img
-                              css: ''
-                              preset: []
-                              attributes:
-                                - >-
-                                  src:
-                                  https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder
-                                - 'alt: Project 3'
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: label_div_19
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - tag
-                              attributes: []
-                              text: UI
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_23
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - thumb
-                          attributes:
-                            - 'data-category: web'
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_img_4
-                            properties:
-                              html_tag: img
-                              css: ''
-                              preset: []
-                              attributes:
-                                - >-
-                                  src:
-                                  https://images.unsplash.com/photo-1525182008055-f88b95ff7980?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder
-                                - 'alt: Project 4'
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: label_div_20
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - tag
-                              attributes: []
-                              text: Web
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_24
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - thumb
-                          attributes:
-                            - 'data-category: branding'
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_img_5
-                            properties:
-                              html_tag: img
-                              css: ''
-                              preset: []
-                              attributes:
-                                - >-
-                                  src:
-                                  https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder
-                                - 'alt: Project 5'
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: label_div_21
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - tag
-                              attributes: []
-                              text: Branding
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                      - layout_properties:
-                          slot: default
-                        name: container_div_25
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - thumb
-                          attributes:
-                            - 'data-category: ui'
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_img_6
-                            properties:
-                              html_tag: img
-                              css: ''
-                              preset: []
-                              attributes:
-                                - >-
-                                  src:
-                                  https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder
-                                - 'alt: Project 6'
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: label_div_22
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - tag
-                              attributes: []
-                              text: UI
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-          - layout_properties:
-              slot: default
-            name: container_section_3
-            properties:
-              html_tag: section
-              css: ''
-              preset:
-                - container
-              attributes:
-                - 'id: contact'
-              text: ''
-              true_html_structure: true
-            type: form:dep_9f700jgshl3kp:Container
-            components:
-              - layout_properties:
-                  slot: default
-                name: label_h2_2
-                properties:
-                  html_tag: h2
-                  css: ''
-                  preset: []
-                  attributes: []
-                  text: Get in touch
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Label
-              - layout_properties:
-                  slot: default
-                name: container_div_26
-                properties:
-                  html_tag: div
-                  css: ''
-                  preset:
-                    - contact
-                    - reveal
-                  attributes: []
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: container_form_1
-                    properties:
-                      html_tag: form
-                      css: ''
-                      preset: []
-                      attributes:
-                        - 'id: contactForm'
-                        - 'novalidate: '
-                      text: ''
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Container
-                    components:
-                      - layout_properties:
-                          slot: default
-                        name: container_div_27
-                        properties:
-                          html_tag: div
-                          css: ''
-                          preset:
-                            - row
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: container_div_28
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - col
-                              attributes: []
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: label_label_1
-                                properties:
-                                  html_tag: label
-                                  css: ''
-                                  preset: []
-                                  attributes:
-                                    - 'for: name'
-                                  text: Name
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: textbox_input_1
-                                properties:
-                                  html_tag: input
-                                  css: ''
-                                  preset: []
-                                  attributes:
-                                    - 'id: name'
-                                    - 'name: name'
-                                    - 'required: '
-                                  text: ''
-                                  placeholder: Your name
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:TextBox
-                          - layout_properties:
-                              slot: default
-                            name: container_div_29
-                            properties:
-                              html_tag: div
-                              css: ''
-                              preset:
-                                - col
-                              attributes: []
-                              text: ''
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: label_label_2
-                                properties:
-                                  html_tag: label
-                                  css: ''
-                                  preset: []
-                                  attributes:
-                                    - 'for: email'
-                                  text: Email
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-                              - layout_properties:
-                                  slot: default
-                                name: textbox_input_2
-                                properties:
-                                  html_tag: input
-                                  css: ''
-                                  preset: []
-                                  attributes:
-                                    - 'id: email'
-                                    - 'name: email'
-                                    - 'required: '
-                                  text: ''
-                                  type: email
-                                  placeholder: you@email.com
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:TextBox
-                      - layout_properties:
-                          slot: default
-                        name: container_div_30
-                        properties:
-                          html_tag: div
-                          css: margin-top:12px
-                          preset: []
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: label_label_3
-                            properties:
-                              html_tag: label
-                              css: ''
-                              preset: []
-                              attributes:
-                                - 'for: message'
-                              text: Message
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Label
-                          - layout_properties:
-                              slot: default
-                            name: textarea_textarea_1
-                            properties:
-                              html_tag: textarea
-                              css: ''
-                              preset: []
-                              attributes:
-                                - 'id: message'
-                                - 'name: message'
-                                - 'rows: 5'
-                                - 'required: '
-                              text: ''
-                              placeholder: Tell me about your project
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:TextArea
-                      - layout_properties:
-                          slot: default
-                        name: container_div_31
-                        properties:
-                          html_tag: div
-                          css: >-
-                            display:flex;gap:10px;align-items:center;margin-top:12px
-                          preset: []
-                          attributes: []
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Container
-                        components:
-                          - layout_properties:
-                              slot: default
-                            name: button_button_6
-                            properties:
-                              html_tag: button
-                              css: ''
-                              preset:
-                                - btn
-                              attributes: []
-                              text: Send message
-                              type: submit
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Button
-                          - layout_properties:
-                              slot: default
-                            name: button_button_7
-                            properties:
-                              html_tag: button
-                              css: ''
-                              preset:
-                                - btn
-                                - btn-ghost
-                              attributes:
-                                - 'id: resetForm'
-                              text: Reset
-                              type: button
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Button
-                          - layout_properties:
-                              slot: default
-                            name: container_div_32
-                            properties:
-                              html_tag: div
-                              css: margin-left:auto
-                              preset:
-                                - muted
-                              attributes: []
-                              text: 'Or email:'
-                              true_html_structure: true
-                            type: form:dep_9f700jgshl3kp:Container
-                            components:
-                              - layout_properties:
-                                  slot: default
-                                name: label_strong_1
-                                properties:
-                                  html_tag: strong
-                                  css: ''
-                                  preset: []
-                                  attributes: []
-                                  text: hello@pixelcraft.dev
-                                  true_html_structure: true
-                                type: form:dep_9f700jgshl3kp:Label
-              - layout_properties:
-                  slot: default
-                name: container_footer_1
-                properties:
-                  html_tag: footer
-                  css: ''
-                  preset: []
-                  attributes: []
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: container_p_1
-                    properties:
-                      html_tag: p
-                      css: ''
-                      preset: []
-                      attributes: []
-                      text: Made with ❤️ by PixelCraft — single page demo ·
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Container
-                    components:
-                      - layout_properties:
-                          slot: default
-                        name: label_span_1
-                        properties:
-                          html_tag: span
-                          css: ''
-                          preset: []
-                          attributes:
-                            - 'id: year'
-                          text: ''
-                          true_html_structure: true
-                        type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: container_div_33
-        properties:
-          html_tag: div
-          css: ''
-          preset:
-            - overlay
-          attributes:
-            - 'id: overlay'
-            - 'role: dialog'
-            - 'aria-modal: true'
-            - 'aria-hidden: true'
-          text: ''
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Container
-        components:
-          - layout_properties:
-              slot: default
-            name: container_div_34
-            properties:
-              html_tag: div
-              css: ''
-              preset:
-                - lightbox
-              attributes:
-                - 'role: document'
-              text: ''
-              true_html_structure: true
-            type: form:dep_9f700jgshl3kp:Container
-            components:
-              - layout_properties:
-                  slot: default
-                name: button_button_8
-                properties:
-                  html_tag: button
-                  css: float:right
-                  preset:
-                    - btn
-                    - btn-ghost
-                  attributes:
-                    - 'id: closeLightbox'
-                  text: Close
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Button
-              - layout_properties:
-                  slot: default
-                name: container_div_35
-                properties:
-                  html_tag: div
-                  css: ''
-                  preset: []
-                  attributes:
-                    - 'id: lightboxContent'
-                  text: ''
-                  true_html_structure: true
-                type: form:dep_9f700jgshl3kp:Container
-                components:
-                  - layout_properties:
-                      slot: default
-                    name: label_img_7
-                    properties:
-                      html_tag: img
-                      css: ''
-                      preset: []
-                      attributes:
-                        - 'src: '
-                        - 'alt: Expanded project'
-                      text: ''
-                      true_html_structure: true
-                    type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: label_div_23
-        properties:
-          html_tag: div
-          css: >-
-            position:fixed;right:22px;bottom:22px;background:var(--card);padding:12px
-            16px;border-radius:12px;border:1px solid
-            var(--glass-border);display:none;z-index:100
-          preset: []
-          attributes:
-            - 'id: toast'
-          text: Copied to clipboard
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Label
-      - layout_properties:
-          slot: default
-        name: preset__1
-        properties:
-          name: container
-          css: max-width:1100px;margin:0 auto;padding:28px
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__2
-        properties:
-          name: navwrap
-          css: >-
-            width:100%;max-width:1200px;background:linear-gradient(180deg,
-            rgba(255,255,255,0.02), transparent);border-radius:16px;padding:10px
-            14px;display:flex;align-items:center;gap:14px;border:1px solid
-            var(--glass-border);box-shadow:var(--glass-shadow)
-
-            @media (max-width:640px){
-
-            padding:8px
-
-            }
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__3
-        properties:
-          name: brand
-          css: display:flex;align-items:center;gap:12px
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__4
-        properties:
-          name: logo
-          css: >-
-            width:44px;height:44px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800;color:#042;transform:translateZ(0)
-
-            @media (max-width:640px){
-
-            width:40px;height:40px
-
-            }
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__5
-        properties:
-          name: navlink
-          css: >-
-            padding:8px
-            12px;border-radius:10px;font-weight:600;color:var(--muted);text-decoration:none
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__6
-        properties:
-          name: navlink[data-active="true"]
-          css: >-
-            background:linear-gradient(90deg, rgba(255,255,255,0.04),
-            transparent);color:var(--accent)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__7
-        properties:
-          name: cta
-          css: >-
-            background:linear-gradient(90deg,var(--accent),#7c3aed);padding:8px
-            14px;border-radius:10px;color:#042;font-weight:700
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__8
-        properties:
-          name: hero
-          css: padding-top:120px;padding-bottom:80px
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__9
-        properties:
-          name: hero-grid
-          css: >-
-            display:grid;grid-template-columns:1fr
-            460px;gap:40px;align-items:center
-
-            @media (max-width:980px){
-
-            grid-template-columns:1fr;
-
-            }
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__10
-        properties:
-          name: eyebrow
-          css: >-
-            display:inline-block;padding:6px
-            10px;border-radius:999px;background:linear-gradient(90deg,#0b1220,transparent);border:1px
-            solid var(--glass-border);color:var(--muted);font-weight:700
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__11
-        properties:
-          name: cta-row
-          css: display:flex;gap:12px;align-items:center
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__12
-        properties:
-          name: btn
-          css: >-
-            display:inline-flex;align-items:center;gap:8px;padding:12px
-            16px;border-radius:12px;font-weight:700;border:0;cursor:pointer
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__13
-        properties:
-          name: btn-ghost
-          css: >-
-            background:transparent;border:1px solid
-            var(--glass-border);color:var(--muted)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__14
-        properties:
-          name: card-hero
-          css: >-
-            background:linear-gradient(180deg, rgba(255,255,255,0.02),
-            transparent);border-radius:18px;padding:20px;border:1px solid
-            var(--glass-border);box-shadow:var(--shadow)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__15
-        properties:
-          name: features
-          css: >-
-            display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px
-
-            @media (max-width:980px){
-
-            grid-template-columns:repeat(2,1fr)
-
-            }
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__16
-        properties:
-          name: feature
-          css: >-
-            padding:18px;border-radius:14px;background:var(--card);border:1px
-            solid var(--glass-border);box-shadow:0 6px 18px
-            rgba(2,6,23,0.45);transition:transform .35s
-            cubic-bezier(.2,.9,.3,1),box-shadow .35s;cursor:pointer
-
-            :hover
-
-            transform:translateY(-8px)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__17
-        properties:
-          name: icon
-          css: >-
-            width:48px;height:48px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(180deg,
-            rgba(255,255,255,0.02), transparent);border:1px solid
-            var(--glass-border);font-weight:800
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__18
-        properties:
-          name: gallery
-          css: margin-top:42px
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__19
-        properties:
-          name: filter-row
-          css: display:flex;gap:10px;flex-wrap:wrap
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__20
-        properties:
-          name: chip
-          css: >-
-            padding:8px
-            12px;border-radius:999px;background:var(--glass);border:1px solid
-            var(--glass-border);cursor:pointer;font-weight:700
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__21
-        properties:
-          name: chip[data-active="true"]
-          css: background:linear-gradient(90deg,var(--accent),#7c3aed);color:#042
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__22
-        properties:
-          name: grid
-          css: >-
-            display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px
-
-            @media (max-width:980px){
-
-            grid-template-columns:repeat(2,1fr)
-
-            }
-
-            @media (max-width:640px){
-
-            grid-template-columns:1fr
-
-            }
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__23
-        properties:
-          name: thumb
-          css: >-
-            position:relative;border-radius:12px;overflow:hidden;cursor:pointer;border:1px
-            solid var(--glass-border);background:linear-gradient(180deg,
-            rgba(255,255,255,0.02), transparent)
-
-            :hover img
-
-            transform:scale(1.06)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__24
-        properties:
-          name: thumb img
-          css: >-
-            width:100%;height:220px;object-fit:cover;display:block;transition:transform
-            .6s cubic-bezier(.2,.9,.3,1)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__25
-        properties:
-          name: tag
-          css: >-
-            position:absolute;left:10px;top:10px;padding:6px
-            8px;border-radius:8px;background:rgba(0,0,0,0.35);font-weight:700
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__26
-        properties:
-          name: overlay
-          css: >-
-            position:fixed;inset:0;background:rgba(2,6,23,0.6);display:none;place-items:center;z-index:80
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__27
-        properties:
-          name: overlay.open
-          css: display:grid
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__28
-        properties:
-          name: lightbox
-          css: >-
-            max-width:860px;width:92%;background:var(--card);border-radius:12px;padding:14px;border:1px
-            solid var(--glass-border)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__29
-        properties:
-          name: lightbox img
-          css: width:100%;height:auto;border-radius:10px
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__30
-        properties:
-          name: contact
-          css: >-
-            margin-top:48px;background:linear-gradient(180deg,
-            rgba(255,255,255,0.02),
-            transparent);padding:22px;border-radius:14px;border:1px solid
-            var(--glass-border)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__31
-        properties:
-          name: row
-          css: display:flex;gap:12px
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__32
-        properties:
-          name: row .col
-          css: flex:1
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__33
-        properties:
-          name: hidden
-          css: display:none
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__34
-        properties:
-          name: muted
-          css: color:var(--muted)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__35
-        properties:
-          name: reveal
-          css: >-
-            opacity:0;transform:translateY(18px);transition:all .7s
-            cubic-bezier(.2,.9,.3,1)
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: preset__36
-        properties:
-          name: reveal.show
-          css: opacity:1;transform:none
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:Preset
-      - layout_properties:
-          slot: default
-        name: stylesheet__1
-        properties:
-          css: >-
-            :root { --bg:#0f1724; --card:#0b1220;
-            --muted:rgba(255,255,255,0.65); --accent:#6ee7b7; --glass:
-            rgba(255,255,255,0.04);
-                  --glass-2: rgba(255,255,255,0.02); --glass-border: rgba(255,255,255,0.06);
-                  --radius:14px; --shadow: 0 10px 30px rgba(2,6,23,0.6);
-                  --glass-shadow: 0 6px 18px rgba(2,6,23,0.5); }
-            [data-theme="light"] { --bg:#f6f7fb; --card:#ffffff;
-            --muted:rgba(15,23,36,0.6); --accent:#0ea5a3; --glass:
-            rgba(15,23,36,0.03); --glass-2: rgba(15,23,36,0.02); --glass-border:
-            rgba(15,23,36,0.06); }
-
-            * { box-sizing:border-box }
-
-            html { height:100% }
-
-            body { height:100% }
-
-            body { margin:0; font-family:Inter,system-ui,Segoe
-            UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
-                  background: radial-gradient(1200px 600px at 10% 10%, rgba(110,231,183,0.08), transparent 12%), radial-gradient(1000px 500px at 90% 90%, rgba(99,102,241,0.04), transparent 15%), var(--bg);
-                  color: #e6eef8; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; line-height:1.45; padding-bottom:80px; }
-            a { color:inherit }
-
-            header {
-            position:fixed;left:0;right:0;top:18px;z-index:40;backdrop-filter:
-            blur(8px);display:flex;justify-content:center }
-
-            nav { margin-left:auto;display:flex;gap:14px;align-items:center }
-
-            h1 { font-size:44px;margin:18px 0 10px;letter-spacing:-0.02em }
-
-            p.lead { color:var(--muted);font-size:16px;margin:0 0 18px }
-
-            label { display:block;font-weight:700;margin-bottom:6px }
-
-            input { width:100%;padding:12px;border-radius:10px;border:1px solid
-            var(--glass-border);background:transparent;color:inherit }
-
-            textarea { width:100%;padding:12px;border-radius:10px;border:1px
-            solid var(--glass-border);background:transparent;color:inherit }
-
-            select { width:100%;padding:12px;border-radius:10px;border:1px solid
-            var(--glass-border);background:transparent;color:inherit }
-
-            footer {
-            margin-top:60px;color:var(--muted);text-align:center;padding-top:12px
-            }
-
-            @media (max-width:980px){
-
-            header { top:12px }
-          true_html_structure: true
-        type: form:dep_9f700jgshl3kp:StyleSheet
-    name: Base
+- components:
+  - layout_properties: {slot: default}
+    name: label_meta_1
     properties:
+      attributes: ['charset: utf-8']
+      css: ''
+      html_tag: meta
+      preset: []
+      text: ''
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Label
+  - layout_properties: {slot: default}
+    name: label_meta_2
+    properties:
+      attributes: ['name: viewport', 'content: width=device-width,initial-scale=1']
+      css: ''
+      html_tag: meta
+      preset: []
+      text: ''
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Label
+  - layout_properties: {slot: default}
+    name: label_title_1
+    properties:
+      attributes: []
+      css: ''
+      html_tag: title
+      preset: []
+      text: Stunning One-Page UI
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Label
+  - layout_properties: {slot: default}
+    name: label_meta_3
+    properties:
+      attributes: ['name: description', 'content: A single-page modern responsive UI with polished interactions, animations and lightbox.']
+      css: ''
+      html_tag: meta
+      preset: []
+      text: ''
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Label
+  - layout_properties: {slot: default}
+    name: label_link_1
+    properties:
+      attributes: ['href: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap', 'rel: [''stylesheet'']']
+      css: ''
+      html_tag: link
+      preset: []
+      text: ''
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Label
+  - components:
+    - components:
+      - components:
+        - layout_properties: {slot: default}
+          name: label_div_1
+          properties:
+            attributes: []
+            css: ''
+            html_tag: div
+            preset: [logo]
+            text: UI
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        - components:
+          - layout_properties: {slot: default}
+            name: label_div_2
+            properties:
+              attributes: []
+              css: font-weight:800
+              html_tag: div
+              preset: []
+              text: PixelCraft
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          - layout_properties: {slot: default}
+            name: label_div_3
+            properties:
+              attributes: []
+              css: font-size:12px;color:var(--muted)
+              html_tag: div
+              preset: []
+              text: UI · Interaction · Microcopy
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          layout_properties: {slot: default}
+          name: container_div_3
+          properties:
+            attributes: []
+            css: ''
+            html_tag: div
+            preset: []
+            text: ''
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Container
+        layout_properties: {slot: default}
+        name: container_div_2
+        properties:
+          attributes: []
+          css: ''
+          html_tag: div
+          preset: [brand]
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      - components:
+        - layout_properties: {slot: default}
+          name: label_a_1
+          properties:
+            attributes: ['href: #features', 'data-target: features']
+            css: ''
+            html_tag: a
+            preset: [navlink]
+            text: Features
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        - layout_properties: {slot: default}
+          name: label_a_2
+          properties:
+            attributes: ['href: #work', 'data-target: work']
+            css: ''
+            html_tag: a
+            preset: [navlink]
+            text: Work
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        - layout_properties: {slot: default}
+          name: label_a_3
+          properties:
+            attributes: ['href: #contact', 'data-target: contact']
+            css: ''
+            html_tag: a
+            preset: [navlink]
+            text: Contact
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        - layout_properties: {slot: default}
+          name: button_button_1
+          properties:
+            attributes: ['id: themeToggle', 'aria-pressed: false', 'title: Toggle theme']
+            css: ''
+            html_tag: button
+            preset: [btn, btn-ghost]
+            text: 🌙
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Button
+        - layout_properties: {slot: default}
+          name: label_a_4
+          properties:
+            attributes: ['href: #contact']
+            css: ''
+            html_tag: a
+            preset: [cta]
+            text: Start a Project
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        layout_properties: {slot: default}
+        name: container_nav_1
+        properties:
+          attributes: []
+          css: ''
+          html_tag: nav
+          preset: []
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      layout_properties: {slot: default}
+      name: container_div_1
+      properties:
+        attributes: ['role: navigation', 'aria-label: Main navigation']
+        css: ''
+        html_tag: div
+        preset: [navwrap, container]
+        text: ''
+        true_html_structure: true
+      type: form:dep_9f700jgshl3kp:Container
+    layout_properties: {slot: default}
+    name: container_header_1
+    properties:
+      attributes: ['aria-hidden: false']
+      css: ''
+      html_tag: header
+      preset: []
+      text: ''
       true_html_structure: true
     type: form:dep_9f700jgshl3kp:Container
+  - components:
+    - components:
+      - components:
+        - components:
+          - layout_properties: {slot: default}
+            name: label_div_4
+            properties:
+              attributes: []
+              css: ''
+              html_tag: div
+              preset: [eyebrow]
+              text: New • Interactive One‑Page
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          - layout_properties: {slot: default}
+            name: label_h1_1
+            properties:
+              attributes: []
+              css: ''
+              html_tag: h1
+              preset: [reveal]
+              text: Beautiful interfaces that feel handcrafted.
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          - layout_properties: {slot: default}
+            name: label_p_1
+            properties:
+              attributes: []
+              css: ''
+              html_tag: p
+              preset: [lead, reveal]
+              text: A single page demo that demonstrates modern microinteractions, accessible markup, responsive layout and a small lightbox gallery — perfect as a landing page starter template.
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          - components:
+            - layout_properties: {slot: default}
+              name: button_button_2
+              properties:
+                attributes: ['id: scrollWork']
+                css: ''
+                html_tag: button
+                preset: [btn]
+                text: Explore Work →
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Button
+            - layout_properties: {slot: default}
+              name: button_button_3
+              properties:
+                attributes: ['id: previewBtn']
+                css: ''
+                html_tag: button
+                preset: [btn, btn-ghost]
+                text: Preview Demo
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Button
+            layout_properties: {slot: default}
+            name: container_div_6
+            properties:
+              attributes: []
+              css: ''
+              html_tag: div
+              preset: [cta-row, reveal]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - components:
+              - layout_properties: {slot: default}
+                name: label_div_5
+                properties:
+                  attributes: []
+                  css: ''
+                  html_tag: div
+                  preset: [icon]
+                  text: ⚡
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: label_h4_1
+                properties:
+                  attributes: []
+                  css: margin:10px 0 6px
+                  html_tag: h4
+                  preset: []
+                  text: Fast Animations
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: label_p_2
+                properties:
+                  attributes: []
+                  css: font-size:14px;margin:0
+                  html_tag: p
+                  preset: [muted]
+                  text: Hardware-accelerated and subtle motion to guide attention.
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              layout_properties: {slot: default}
+              name: container_div_8
+              properties:
+                attributes: ['data-tilt: ']
+                css: ''
+                html_tag: div
+                preset: [feature]
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            - components:
+              - layout_properties: {slot: default}
+                name: label_div_6
+                properties:
+                  attributes: []
+                  css: ''
+                  html_tag: div
+                  preset: [icon]
+                  text: 🎛️
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: label_h4_2
+                properties:
+                  attributes: []
+                  css: margin:10px 0 6px
+                  html_tag: h4
+                  preset: []
+                  text: Interactive UI
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: label_p_3
+                properties:
+                  attributes: []
+                  css: font-size:14px;margin:0
+                  html_tag: p
+                  preset: [muted]
+                  text: Filters, lightbox, form validation and theme toggle built-in.
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              layout_properties: {slot: default}
+              name: container_div_9
+              properties:
+                attributes: ['data-tilt: ']
+                css: ''
+                html_tag: div
+                preset: [feature]
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            - components:
+              - layout_properties: {slot: default}
+                name: label_div_7
+                properties:
+                  attributes: []
+                  css: ''
+                  html_tag: div
+                  preset: [icon]
+                  text: 🔒
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: label_h4_3
+                properties:
+                  attributes: []
+                  css: margin:10px 0 6px
+                  html_tag: h4
+                  preset: []
+                  text: Accessible
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: label_p_4
+                properties:
+                  attributes: []
+                  css: font-size:14px;margin:0
+                  html_tag: p
+                  preset: [muted]
+                  text: Keyboard friendly, semantic HTML, focus states and ARIA attributes.
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              layout_properties: {slot: default}
+              name: container_div_10
+              properties:
+                attributes: ['data-tilt: ']
+                css: ''
+                html_tag: div
+                preset: [feature]
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            layout_properties: {slot: default}
+            name: container_div_7
+            properties:
+              attributes: []
+              css: margin-top:28px
+              html_tag: div
+              preset: [features, reveal]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          layout_properties: {slot: default}
+          name: container_div_5
+          properties:
+            attributes: []
+            css: ''
+            html_tag: div
+            preset: []
+            text: ''
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Container
+        - components:
+          - components:
+            - components:
+              - layout_properties: {slot: default}
+                name: label_div_8
+                properties:
+                  attributes: []
+                  css: font-size:12px;color:var(--muted);font-weight:700
+                  html_tag: div
+                  preset: []
+                  text: Live preview
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: label_div_9
+                properties:
+                  attributes: []
+                  css: font-weight:800;font-size:18px
+                  html_tag: div
+                  preset: []
+                  text: Interactive Gallery
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              layout_properties: {slot: default}
+              name: container_div_12
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            - layout_properties: {slot: default}
+              name: label_div_10
+              properties:
+                attributes: []
+                css: text-align:right;color:var(--muted)
+                html_tag: div
+                preset: []
+                text: v1.0
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            layout_properties: {slot: default}
+            name: container_div_11
+            properties:
+              attributes: []
+              css: display:flex;align-items:center;justify-content:space-between;margin-bottom:12px
+              html_tag: div
+              preset: []
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - components:
+              - components:
+                - components:
+                  - layout_properties: {slot: default}
+                    name: label_stop_1
+                    properties:
+                      attributes: ['offset: 0', 'stop-color: #7c3aed', 'stop-opacity: 0.95']
+                      css: ''
+                      html_tag: stop
+                      preset: []
+                      text: ''
+                      true_html_structure: true
+                    type: form:dep_9f700jgshl3kp:Label
+                  - layout_properties: {slot: default}
+                    name: label_stop_2
+                    properties:
+                      attributes: ['offset: 1', 'stop-color: #06b6d4', 'stop-opacity: 0.9']
+                      css: ''
+                      html_tag: stop
+                      preset: []
+                      text: ''
+                      true_html_structure: true
+                    type: form:dep_9f700jgshl3kp:Label
+                  layout_properties: {slot: default}
+                  name: container_lineargradient_1
+                  properties:
+                    attributes: ['id: g1', 'x1: 0', 'x2: 1']
+                    css: ''
+                    html_tag: lineargradient
+                    preset: []
+                    text: ''
+                    true_html_structure: true
+                  type: form:dep_9f700jgshl3kp:Container
+                layout_properties: {slot: default}
+                name: container_defs_1
+                properties:
+                  attributes: []
+                  css: ''
+                  html_tag: defs
+                  preset: []
+                  text: ''
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Container
+              - layout_properties: {slot: default}
+                name: label_rect_1
+                properties:
+                  attributes: ['x: 0', 'y: 0', 'width: 600', 'height: 400', 'fill: url(#g1)']
+                  css: ''
+                  html_tag: rect
+                  preset: []
+                  text: ''
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - components:
+                - layout_properties: {slot: default}
+                  name: label_circle_1
+                  properties:
+                    attributes: ['cx: 60', 'cy: 40', 'r: 8']
+                    css: ''
+                    html_tag: circle
+                    preset: []
+                    text: ''
+                    true_html_structure: true
+                  type: form:dep_9f700jgshl3kp:Label
+                - layout_properties: {slot: default}
+                  name: label_circle_2
+                  properties:
+                    attributes: ['cx: 120', 'cy: 80', 'r: 26']
+                    css: ''
+                    html_tag: circle
+                    preset: []
+                    text: ''
+                    true_html_structure: true
+                  type: form:dep_9f700jgshl3kp:Label
+                - layout_properties: {slot: default}
+                  name: label_circle_3
+                  properties:
+                    attributes: ['cx: 220', 'cy: 100', 'r: 14']
+                    css: ''
+                    html_tag: circle
+                    preset: []
+                    text: ''
+                    true_html_structure: true
+                  type: form:dep_9f700jgshl3kp:Label
+                - layout_properties: {slot: default}
+                  name: label_circle_4
+                  properties:
+                    attributes: ['cx: 360', 'cy: 30', 'r: 20']
+                    css: ''
+                    html_tag: circle
+                    preset: []
+                    text: ''
+                    true_html_structure: true
+                  type: form:dep_9f700jgshl3kp:Label
+                - layout_properties: {slot: default}
+                  name: label_circle_5
+                  properties:
+                    attributes: ['cx: 480', 'cy: 120', 'r: 10']
+                    css: ''
+                    html_tag: circle
+                    preset: []
+                    text: ''
+                    true_html_structure: true
+                  type: form:dep_9f700jgshl3kp:Label
+                layout_properties: {slot: default}
+                name: container_g_1
+                properties:
+                  attributes: ['fill: rgba(255,255,255,0.18)', 'transform: translate(40,40)', 'opacity: 0.9']
+                  css: ''
+                  html_tag: g
+                  preset: []
+                  text: ''
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Container
+              layout_properties: {slot: default}
+              name: container_svg_1
+              properties:
+                attributes: ['viewbox: 0 0 600 400', 'preserveaspectratio: xMidYMid slice']
+                css: width:100%;height:100%
+                html_tag: svg
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            layout_properties: {slot: default}
+            name: container_div_13
+            properties:
+              attributes: []
+              css: height:260px;border-radius:12px;overflow:hidden;position:relative;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)
+              html_tag: div
+              preset: []
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: label_div_11
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [muted]
+                text: Responsive • Retina • Small
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - components:
+              - layout_properties: {slot: default}
+                name: button_button_4
+                properties:
+                  attributes: ['id: downloadMock']
+                  css: ''
+                  html_tag: button
+                  preset: [btn, btn-ghost]
+                  text: Download
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Button
+              - layout_properties: {slot: default}
+                name: button_button_5
+                properties:
+                  attributes: ['id: openLightbox']
+                  css: ''
+                  html_tag: button
+                  preset: [btn]
+                  text: Open
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Button
+              layout_properties: {slot: default}
+              name: container_div_15
+              properties:
+                attributes: []
+                css: display:flex;gap:8px
+                html_tag: div
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            layout_properties: {slot: default}
+            name: container_div_14
+            properties:
+              attributes: []
+              css: display:flex;gap:10px;margin-top:12px;align-items:center;justify-content:space-between
+              html_tag: div
+              preset: []
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          layout_properties: {slot: default}
+          name: container_aside_1
+          properties:
+            attributes: ['aria-hidden: false']
+            css: ''
+            html_tag: aside
+            preset: [card-hero, reveal]
+            text: ''
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Container
+        layout_properties: {slot: default}
+        name: container_div_4
+        properties:
+          attributes: []
+          css: ''
+          html_tag: div
+          preset: [hero-grid]
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      layout_properties: {slot: default}
+      name: container_section_1
+      properties:
+        attributes: ['id: home']
+        css: ''
+        html_tag: section
+        preset: [hero, container]
+        text: ''
+        true_html_structure: true
+      type: form:dep_9f700jgshl3kp:Container
+    - components:
+      - components:
+        - layout_properties: {slot: default}
+          name: label_h2_1
+          properties:
+            attributes: []
+            css: ''
+            html_tag: h2
+            preset: []
+            text: Selected work
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        - layout_properties: {slot: default}
+          name: label_div_12
+          properties:
+            attributes: []
+            css: ''
+            html_tag: div
+            preset: [muted]
+            text: Filter examples & open to view
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        layout_properties: {slot: default}
+        name: container_div_16
+        properties:
+          attributes: []
+          css: display:flex;align-items:center;justify-content:space-between
+          html_tag: div
+          preset: []
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      - components:
+        - components:
+          - layout_properties: {slot: default}
+            name: label_div_13
+            properties:
+              attributes: ['data-filter: all', 'data-active: true']
+              css: ''
+              html_tag: div
+              preset: [chip]
+              text: All
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          - layout_properties: {slot: default}
+            name: label_div_14
+            properties:
+              attributes: ['data-filter: web']
+              css: ''
+              html_tag: div
+              preset: [chip]
+              text: Web
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          - layout_properties: {slot: default}
+            name: label_div_15
+            properties:
+              attributes: ['data-filter: branding']
+              css: ''
+              html_tag: div
+              preset: [chip]
+              text: Branding
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          - layout_properties: {slot: default}
+            name: label_div_16
+            properties:
+              attributes: ['data-filter: ui']
+              css: ''
+              html_tag: div
+              preset: [chip]
+              text: UI Kits
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          layout_properties: {slot: default}
+          name: container_div_18
+          properties:
+            attributes: ['role: tablist', 'aria-label: Filter projects']
+            css: ''
+            html_tag: div
+            preset: [filter-row]
+            text: ''
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Container
+        - components:
+          - components:
+            - layout_properties: {slot: default}
+              name: label_img_1
+              properties:
+                attributes: ['src: https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder', 'alt: Project 1']
+                css: ''
+                html_tag: img
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - layout_properties: {slot: default}
+              name: label_div_17
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [tag]
+                text: Web
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            layout_properties: {slot: default}
+            name: container_div_20
+            properties:
+              attributes: ['data-category: web']
+              css: ''
+              html_tag: div
+              preset: [thumb]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: label_img_2
+              properties:
+                attributes: ['src: https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder', 'alt: Project 2']
+                css: ''
+                html_tag: img
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - layout_properties: {slot: default}
+              name: label_div_18
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [tag]
+                text: Branding
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            layout_properties: {slot: default}
+            name: container_div_21
+            properties:
+              attributes: ['data-category: branding']
+              css: ''
+              html_tag: div
+              preset: [thumb]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: label_img_3
+              properties:
+                attributes: ['src: https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder', 'alt: Project 3']
+                css: ''
+                html_tag: img
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - layout_properties: {slot: default}
+              name: label_div_19
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [tag]
+                text: UI
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            layout_properties: {slot: default}
+            name: container_div_22
+            properties:
+              attributes: ['data-category: ui']
+              css: ''
+              html_tag: div
+              preset: [thumb]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: label_img_4
+              properties:
+                attributes: ['src: https://images.unsplash.com/photo-1525182008055-f88b95ff7980?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder', 'alt: Project 4']
+                css: ''
+                html_tag: img
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - layout_properties: {slot: default}
+              name: label_div_20
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [tag]
+                text: Web
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            layout_properties: {slot: default}
+            name: container_div_23
+            properties:
+              attributes: ['data-category: web']
+              css: ''
+              html_tag: div
+              preset: [thumb]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: label_img_5
+              properties:
+                attributes: ['src: https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder', 'alt: Project 5']
+                css: ''
+                html_tag: img
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - layout_properties: {slot: default}
+              name: label_div_21
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [tag]
+                text: Branding
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            layout_properties: {slot: default}
+            name: container_div_24
+            properties:
+              attributes: ['data-category: branding']
+              css: ''
+              html_tag: div
+              preset: [thumb]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: label_img_6
+              properties:
+                attributes: ['src: https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder', 'alt: Project 6']
+                css: ''
+                html_tag: img
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - layout_properties: {slot: default}
+              name: label_div_22
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [tag]
+                text: UI
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            layout_properties: {slot: default}
+            name: container_div_25
+            properties:
+              attributes: ['data-category: ui']
+              css: ''
+              html_tag: div
+              preset: [thumb]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          layout_properties: {slot: default}
+          name: container_div_19
+          properties:
+            attributes: ['id: grid']
+            css: ''
+            html_tag: div
+            preset: [grid]
+            text: ''
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Container
+        layout_properties: {slot: default}
+        name: container_div_17
+        properties:
+          attributes: []
+          css: ''
+          html_tag: div
+          preset: [gallery, reveal]
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      layout_properties: {slot: default}
+      name: container_section_2
+      properties:
+        attributes: ['id: work']
+        css: ''
+        html_tag: section
+        preset: [container]
+        text: ''
+        true_html_structure: true
+      type: form:dep_9f700jgshl3kp:Container
+    - components:
+      - layout_properties: {slot: default}
+        name: label_h2_2
+        properties:
+          attributes: []
+          css: ''
+          html_tag: h2
+          preset: []
+          text: Get in touch
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Label
+      - components:
+        - components:
+          - components:
+            - components:
+              - layout_properties: {slot: default}
+                name: label_label_1
+                properties:
+                  attributes: ['for: name']
+                  css: ''
+                  html_tag: label
+                  preset: []
+                  text: Name
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: textbox_input_1
+                properties:
+                  attributes: ['id: name', 'name: name', 'required: ']
+                  css: ''
+                  html_tag: input
+                  placeholder: Your name
+                  preset: []
+                  text: ''
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:TextBox
+              layout_properties: {slot: default}
+              name: container_div_28
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [col]
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            - components:
+              - layout_properties: {slot: default}
+                name: label_label_2
+                properties:
+                  attributes: ['for: email']
+                  css: ''
+                  html_tag: label
+                  preset: []
+                  text: Email
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              - layout_properties: {slot: default}
+                name: textbox_input_2
+                properties:
+                  attributes: ['id: email', 'name: email', 'required: ']
+                  css: ''
+                  html_tag: input
+                  placeholder: you@email.com
+                  preset: []
+                  text: ''
+                  true_html_structure: true
+                  type: email
+                type: form:dep_9f700jgshl3kp:TextBox
+              layout_properties: {slot: default}
+              name: container_div_29
+              properties:
+                attributes: []
+                css: ''
+                html_tag: div
+                preset: [col]
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            layout_properties: {slot: default}
+            name: container_div_27
+            properties:
+              attributes: []
+              css: ''
+              html_tag: div
+              preset: [row]
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: label_label_3
+              properties:
+                attributes: ['for: message']
+                css: ''
+                html_tag: label
+                preset: []
+                text: Message
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Label
+            - layout_properties: {slot: default}
+              name: textarea_textarea_1
+              properties:
+                attributes: ['id: message', 'name: message', 'rows: 5', 'required: ']
+                css: ''
+                html_tag: textarea
+                placeholder: Tell me about your project
+                preset: []
+                text: ''
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:TextArea
+            layout_properties: {slot: default}
+            name: container_div_30
+            properties:
+              attributes: []
+              css: margin-top:12px
+              html_tag: div
+              preset: []
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          - components:
+            - layout_properties: {slot: default}
+              name: button_button_6
+              properties:
+                attributes: []
+                css: ''
+                html_tag: button
+                preset: [btn]
+                text: Send message
+                true_html_structure: true
+                type: submit
+              type: form:dep_9f700jgshl3kp:Button
+            - layout_properties: {slot: default}
+              name: button_button_7
+              properties:
+                attributes: ['id: resetForm']
+                css: ''
+                html_tag: button
+                preset: [btn, btn-ghost]
+                text: Reset
+                true_html_structure: true
+                type: button
+              type: form:dep_9f700jgshl3kp:Button
+            - components:
+              - layout_properties: {slot: default}
+                name: label_strong_1
+                properties:
+                  attributes: []
+                  css: ''
+                  html_tag: strong
+                  preset: []
+                  text: hello@pixelcraft.dev
+                  true_html_structure: true
+                type: form:dep_9f700jgshl3kp:Label
+              layout_properties: {slot: default}
+              name: container_div_32
+              properties:
+                attributes: []
+                css: margin-left:auto
+                html_tag: div
+                preset: [muted]
+                text: 'Or email:'
+                true_html_structure: true
+              type: form:dep_9f700jgshl3kp:Container
+            layout_properties: {slot: default}
+            name: container_div_31
+            properties:
+              attributes: []
+              css: display:flex;gap:10px;align-items:center;margin-top:12px
+              html_tag: div
+              preset: []
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Container
+          layout_properties: {slot: default}
+          name: container_form_1
+          properties:
+            attributes: ['id: contactForm', 'novalidate: ']
+            css: ''
+            html_tag: form
+            preset: []
+            text: ''
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Container
+        layout_properties: {slot: default}
+        name: container_div_26
+        properties:
+          attributes: []
+          css: ''
+          html_tag: div
+          preset: [contact, reveal]
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      - components:
+        - components:
+          - layout_properties: {slot: default}
+            name: label_span_1
+            properties:
+              attributes: ['id: year']
+              css: ''
+              html_tag: span
+              preset: []
+              text: ''
+              true_html_structure: true
+            type: form:dep_9f700jgshl3kp:Label
+          layout_properties: {slot: default}
+          name: container_p_1
+          properties:
+            attributes: []
+            css: ''
+            html_tag: p
+            preset: []
+            text: Made with ❤️ by PixelCraft — single page demo ·
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Container
+        layout_properties: {slot: default}
+        name: container_footer_1
+        properties:
+          attributes: []
+          css: ''
+          html_tag: footer
+          preset: []
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      layout_properties: {slot: default}
+      name: container_section_3
+      properties:
+        attributes: ['id: contact']
+        css: ''
+        html_tag: section
+        preset: [container]
+        text: ''
+        true_html_structure: true
+      type: form:dep_9f700jgshl3kp:Container
+    layout_properties: {slot: default}
+    name: container_main_1
+    properties:
+      attributes: []
+      css: ''
+      html_tag: main
+      preset: []
+      text: ''
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Container
+  - components:
+    - components:
+      - layout_properties: {slot: default}
+        name: button_button_8
+        properties:
+          attributes: ['id: closeLightbox']
+          css: float:right
+          html_tag: button
+          preset: [btn, btn-ghost]
+          text: Close
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Button
+      - components:
+        - layout_properties: {slot: default}
+          name: label_img_7
+          properties:
+            attributes: ['src: ', 'alt: Expanded project']
+            css: ''
+            html_tag: img
+            preset: []
+            text: ''
+            true_html_structure: true
+          type: form:dep_9f700jgshl3kp:Label
+        layout_properties: {slot: default}
+        name: container_div_35
+        properties:
+          attributes: ['id: lightboxContent']
+          css: ''
+          html_tag: div
+          preset: []
+          text: ''
+          true_html_structure: true
+        type: form:dep_9f700jgshl3kp:Container
+      layout_properties: {slot: default}
+      name: container_div_34
+      properties:
+        attributes: ['role: document']
+        css: ''
+        html_tag: div
+        preset: [lightbox]
+        text: ''
+        true_html_structure: true
+      type: form:dep_9f700jgshl3kp:Container
+    layout_properties: {slot: default}
+    name: container_div_33
+    properties:
+      attributes: ['id: overlay', 'role: dialog', 'aria-modal: true', 'aria-hidden: true']
+      css: ''
+      html_tag: div
+      preset: [overlay]
+      text: ''
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Container
+  - layout_properties: {slot: default}
+    name: label_div_23
+    properties:
+      attributes: ['id: toast']
+      css: position:fixed;right:22px;bottom:22px;background:var(--card);padding:12px 16px;border-radius:12px;border:1px solid var(--glass-border);display:none;z-index:100
+      html_tag: div
+      preset: []
+      text: Copied to clipboard
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Label
+  - layout_properties: {slot: default}
+    name: preset__1
+    properties: {css: 'max-width:1100px;margin:0 auto;padding:28px', name: container, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__2
+    properties:
+      css: |-
+        width:100%;max-width:1200px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:16px;padding:10px 14px;display:flex;align-items:center;gap:14px;border:1px solid var(--glass-border);box-shadow:var(--glass-shadow)
+        @media (max-width:640px){
+        padding:8px
+        }
+      name: navwrap
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__3
+    properties: {css: 'display:flex;align-items:center;gap:12px', name: brand, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__4
+    properties:
+      css: |-
+        width:44px;height:44px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:800;color:#042;transform:translateZ(0)
+        @media (max-width:640px){
+        width:40px;height:40px
+        }
+      name: logo
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__5
+    properties: {css: 'padding:8px 12px;border-radius:10px;font-weight:600;color:var(--muted);text-decoration:none', name: navlink, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__6
+    properties: {css: 'background:linear-gradient(90deg, rgba(255,255,255,0.04), transparent);color:var(--accent)', name: 'navlink[data-active="true"]', true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__7
+    properties: {css: 'background:linear-gradient(90deg,var(--accent),#7c3aed);padding:8px 14px;border-radius:10px;color:#042;font-weight:700', name: cta, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__8
+    properties: {css: 'padding-top:120px;padding-bottom:80px', name: hero, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__9
+    properties:
+      css: |-
+        display:grid;grid-template-columns:1fr 460px;gap:40px;align-items:center
+        @media (max-width:980px){
+        grid-template-columns:1fr;
+        }
+      name: hero-grid
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__10
+    properties: {css: 'display:inline-block;padding:6px 10px;border-radius:999px;background:linear-gradient(90deg,#0b1220,transparent);border:1px solid var(--glass-border);color:var(--muted);font-weight:700', name: eyebrow, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__11
+    properties: {css: 'display:flex;gap:12px;align-items:center', name: cta-row, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__12
+    properties: {css: 'display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:12px;font-weight:700;border:0;cursor:pointer', name: btn, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__13
+    properties: {css: 'background:transparent;border:1px solid var(--glass-border);color:var(--muted)', name: btn-ghost, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__14
+    properties: {css: 'background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:18px;padding:20px;border:1px solid var(--glass-border);box-shadow:var(--shadow)', name: card-hero, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__15
+    properties:
+      css: |-
+        display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px
+        @media (max-width:980px){
+        grid-template-columns:repeat(2,1fr)
+        }
+      name: features
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__16
+    properties:
+      css: |-
+        padding:18px;border-radius:14px;background:var(--card);border:1px solid var(--glass-border);box-shadow:0 6px 18px rgba(2,6,23,0.45);transition:transform .35s cubic-bezier(.2,.9,.3,1),box-shadow .35s;cursor:pointer
+        :hover
+        transform:translateY(-8px)
+      name: feature
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__17
+    properties: {css: 'width:48px;height:48px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border:1px solid var(--glass-border);font-weight:800', name: icon, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__18
+    properties: {css: 'margin-top:42px', name: gallery, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__19
+    properties: {css: 'display:flex;gap:10px;flex-wrap:wrap', name: filter-row, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__20
+    properties: {css: 'padding:8px 12px;border-radius:999px;background:var(--glass);border:1px solid var(--glass-border);cursor:pointer;font-weight:700', name: chip, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__21
+    properties: {css: 'background:linear-gradient(90deg,var(--accent),#7c3aed);color:#042', name: 'chip[data-active="true"]', true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__22
+    properties:
+      css: |-
+        display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px
+        @media (max-width:980px){
+        grid-template-columns:repeat(2,1fr)
+        }
+        @media (max-width:640px){
+        grid-template-columns:1fr
+        }
+      name: grid
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__23
+    properties:
+      css: |-
+        position:relative;border-radius:12px;overflow:hidden;cursor:pointer;border:1px solid var(--glass-border);background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)
+        :hover img
+        transform:scale(1.06)
+      name: thumb
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__24
+    properties: {css: 'width:100%;height:220px;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.2,.9,.3,1)', name: thumb img, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__25
+    properties: {css: 'position:absolute;left:10px;top:10px;padding:6px 8px;border-radius:8px;background:rgba(0,0,0,0.35);font-weight:700', name: tag, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__26
+    properties: {css: 'position:fixed;inset:0;background:rgba(2,6,23,0.6);display:none;place-items:center;z-index:80', name: overlay, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__27
+    properties: {css: 'display:grid', name: overlay.open, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__28
+    properties: {css: 'max-width:860px;width:92%;background:var(--card);border-radius:12px;padding:14px;border:1px solid var(--glass-border)', name: lightbox, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__29
+    properties: {css: 'width:100%;height:auto;border-radius:10px', name: lightbox img, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__30
+    properties: {css: 'margin-top:48px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:22px;border-radius:14px;border:1px solid var(--glass-border)', name: contact, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__31
+    properties: {css: 'display:flex;gap:12px', name: row, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__32
+    properties: {css: 'flex:1', name: row .col, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__33
+    properties: {css: 'display:none', name: hidden, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__34
+    properties: {css: 'color:var(--muted)', name: muted, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__35
+    properties: {css: 'opacity:0;transform:translateY(18px);transition:all .7s cubic-bezier(.2,.9,.3,1)', name: reveal, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: preset__36
+    properties: {css: 'opacity:1;transform:none', name: reveal.show, true_html_structure: true}
+    type: form:dep_9f700jgshl3kp:Preset
+  - layout_properties: {slot: default}
+    name: stylesheet__1
+    properties:
+      css: |-
+        :root { --bg:#0f1724; --card:#0b1220; --muted:rgba(255,255,255,0.65); --accent:#6ee7b7; --glass: rgba(255,255,255,0.04);
+              --glass-2: rgba(255,255,255,0.02); --glass-border: rgba(255,255,255,0.06);
+              --radius:14px; --shadow: 0 10px 30px rgba(2,6,23,0.6);
+              --glass-shadow: 0 6px 18px rgba(2,6,23,0.5); }
+        [data-theme="light"] { --bg:#f6f7fb; --card:#ffffff; --muted:rgba(15,23,36,0.6); --accent:#0ea5a3; --glass: rgba(15,23,36,0.03); --glass-2: rgba(15,23,36,0.02); --glass-border: rgba(15,23,36,0.06); }
+        * { box-sizing:border-box }
+        html { height:100% }
+        body { height:100% }
+        body { margin:0; font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+              background: radial-gradient(1200px 600px at 10% 10%, rgba(110,231,183,0.08), transparent 12%), radial-gradient(1000px 500px at 90% 90%, rgba(99,102,241,0.04), transparent 15%), var(--bg);
+              color: #e6eef8; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; line-height:1.45; padding-bottom:80px; }
+        a { color:inherit }
+        header { position:fixed;left:0;right:0;top:18px;z-index:40;backdrop-filter: blur(8px);display:flex;justify-content:center }
+        nav { margin-left:auto;display:flex;gap:14px;align-items:center }
+        h1 { font-size:44px;margin:18px 0 10px;letter-spacing:-0.02em }
+        p.lead { color:var(--muted);font-size:16px;margin:0 0 18px }
+        label { display:block;font-weight:700;margin-bottom:6px }
+        input { width:100%;padding:12px;border-radius:10px;border:1px solid var(--glass-border);background:transparent;color:inherit }
+        textarea { width:100%;padding:12px;border-radius:10px;border:1px solid var(--glass-border);background:transparent;color:inherit }
+        select { width:100%;padding:12px;border-radius:10px;border:1px solid var(--glass-border);background:transparent;color:inherit }
+        footer { margin-top:60px;color:var(--muted);text-align:center;padding-top:12px }
+        @media (max-width:980px){
+        header { top:12px }
+      true_html_structure: true
+    type: form:dep_9f700jgshl3kp:StyleSheet
+  layout_properties: {slot: default}
+  name: Base
+  properties: {true_html_structure: true}
+  type: form:dep_9f700jgshl3kp:Container
+container: {type: HtmlTemplate}
+is_package: true
