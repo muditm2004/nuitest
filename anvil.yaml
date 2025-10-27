@@ -1,4 +1,8 @@
 allow_embedding: false
+dependencies:
+- dep_id: dep_9f700jgshl3kp
+  resolution_hints: {app_id: TOQ2IMWAHGWMGSQS, name: Clone of NUI HTML Library, package_name: NUI}
+  version: {branch: master}
 name: NUITest
 package_name: NUITest
 runtime_options:
